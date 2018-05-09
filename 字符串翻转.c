@@ -1,4 +1,7 @@
 /*实现字符串翻转*/  
+#include<stdio.h>
+
+void main(){
 char* reverse_str(char* str)  
 {  
     if(NULL == str) //字符串为空直接返回  
@@ -27,3 +30,4 @@ char* reverse_str(char* str)
   
     return str; //返回结果  
 }  
+}
