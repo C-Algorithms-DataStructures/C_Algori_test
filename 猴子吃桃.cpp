@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main(){ 
+	//淇涔辩爜闂
     int day, x1, x2; 
     day; 
     x2=1; 
@@ -7,7 +8,7 @@ int main(){
     	x1=(x2+1)*2;
     	x2=x1;
 	}
-    printf("第一天有 %d个桃子\n",x1);
+    printf("绗竴澶╂湁 %d涓瀛怽n",x1);
     
     return 0;
 }
