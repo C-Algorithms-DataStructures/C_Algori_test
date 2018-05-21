@@ -9,7 +9,7 @@ float sum1(float a[]){
 }
 float average1(float sum){ 
    float average;
-	average= sum/5;
+	average= sum/10;
 	return average;
 }
 void main(){
