@@ -4,9 +4,9 @@ float mizhi(int x,int n){
     int i,j,t1,t2;
 	float T=0;
 	for(i=1,t1=1,t2=1,T=0;i<=n;i++){
-		t2*=i;//nµÄ½×³Ë
+		t2*=i;//å¹‚å‡½æ•°
 		printf("\nt2=%d\n",t2);
-		t1=x*t1;//xµÄn´Î·½
+		t1=x*t1;//é˜¶ä¹˜
 		printf("\nt1=%d\n",t1);
 		T+=1.0*t1/t2;
 	}
