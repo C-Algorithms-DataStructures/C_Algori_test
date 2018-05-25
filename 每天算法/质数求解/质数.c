@@ -12,7 +12,7 @@ main(){
 			for(j=2;j<=i-1;j++){
 				if(i%j==0){flag=0;}
 			}
-			if(flag==1)printf("\nÖ¸ÊýÊÇ:%3d\n",i);
+			if(flag==1)printf("\nè´¨æ•°:%3d\n",i);
 		}
 
 	}
