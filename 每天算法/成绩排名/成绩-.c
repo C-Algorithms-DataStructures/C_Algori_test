@@ -5,13 +5,13 @@ main(){
     printf("input 30 students :");
 	for(a=0;a<30;a++){	
 		scanf("%d",&grade[a]);
-			for(i=0;i<c-1;i++){
+		for(i=0;i<c-1;i++){
 		for(j=i+1;j<c;j++){
 			if(grade[i]<grade[j]){
 				t=grade[j];grade[j]=grade[i];grade[i]=t;				
 			}
 		}
-	}
+	}//排序
 		if(grade[a]<0)break; 
 		c++;
 	}
