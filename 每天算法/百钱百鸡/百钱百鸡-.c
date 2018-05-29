@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 main(){
-   int x,y,z,t,m=0;//´ÎÊý
+   int x,y,z,t,m=0;//æ¬¡æ•°
    for(x=0;x<=20;x++){
 	   for(y=0;y<=50;y++){
 		   for(z=0;z<=100;z++){
@@ -10,4 +10,4 @@ main(){
  //  printf("x=%d,y=%d,z=%d\n",x,y,z);
    printf("m=%d\n",m);
    
-}//½á¹û£º541
+}//ç»“æžœï¼š541
