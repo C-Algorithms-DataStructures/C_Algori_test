@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-main(){
+void main(){
   int x[5][4],i,j;
   printf("intput 12 numbers:");
   for(i=0;i<4;i++)
