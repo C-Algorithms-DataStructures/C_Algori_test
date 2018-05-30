@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-main(){
+void main(){
 	int a,b,x;
 	int found=0;
 		printf("¼¦ÍÃÍ·×ÜÊı£º");
