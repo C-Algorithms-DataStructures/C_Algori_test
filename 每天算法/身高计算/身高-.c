@@ -2,16 +2,16 @@
 
 #include<stdio.h>
 #include<conio.h>
-main(){
+int main(){
     double c,d,e,b,f;
 	char yes,no,a;
-	printf("请输入父亲身高(cm)：");
+	printf("脟毛脢盲脠毛赂赂脟脳脡铆赂脽(cm)拢潞");
     scanf("%f",&c);
-    printf("请输入母亲身高(cm)：");
+    printf("脟毛脢盲脠毛脛赂脟脳脡铆赂脽(cm)拢潞");
     scanf("%f",&d);
-	printf("请输入自己身高(cm)：");
+	printf("脟毛脢盲脠毛脳脭录潞脡铆赂脽(cm)拢潞");
     scanf("%f",&e);
-	printf("是否为男生(yes or no)：");
+	printf("脢脟路帽脦陋脛脨脡煤(yes or no)拢潞");
 	scanf("%s",&a);
     if(a==yes){
 		b=(c+d)*1.08/2;}
@@ -19,9 +19,9 @@ main(){
 	   { b=(c*0.923+d)/2;}
 	f=e-b;
 	if(f<=3&&f>=-3)
-		printf("相符\n");
+		printf("脧脿路没\n");
 	else
-        printf("不相符\n");
+        printf("虏禄脧脿路没\n");
 
 return 0;
 }
