@@ -11,6 +11,7 @@ void main(){
     s=a+b+c;x=a*100+b*10+c;
     if(x%s==0)
     {
+        
     	i++;m=x/s;
     	if(m>max)
     	{
