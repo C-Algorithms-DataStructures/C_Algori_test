@@ -5,13 +5,13 @@
 int main(){
     double c,d,e,b,f;
 	char yes,no,a;
-	printf("ÇëÊäÈë¸¸Ç×Éí¸ß(cm)£º");
+	printf("请输入父亲身高(cm)：");
     scanf("%f",&c);
-    printf("ÇëÊäÈëÄ¸Ç×Éí¸ß(cm)£º");
+    printf("请输入母亲身高(cm)：");
     scanf("%f",&d);
-	printf("ÇëÊäÈë×Ô¼ºÉí¸ß(cm)£º");
+	printf("请输入自己身高(cm)：");
     scanf("%f",&e);
-	printf("ÊÇ·ñÎªÄÐÉú(yes or no)£º");
+	printf("是否为男生(yes or no)：");
 	scanf("%s",&a);
     if(a==yes){
 		b=(c+d)*1.08/2;}
@@ -19,9 +19,9 @@ int main(){
 	   { b=(c*0.923+d)/2;}
 	f=e-b;
 	if(f<=3&&f>=-3)
-		printf("Ïà·û\n");
+		printf("相符\n");
 	else
-        printf("²»Ïà·û\n");
+        printf("不相符\n");
 
 return 0;
 }
