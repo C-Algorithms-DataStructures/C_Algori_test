@@ -3,14 +3,16 @@
 void main(){
 	int a,b,x;
 	int found=0;
-		printf("鸡兔头总数：");
+		printf("录娄脥脙脥路脳脺脢媒拢潞");
 	scanf("%d",&a);
-	    printf("鸡兔脚总数：");
+	    printf("录娄脥脙陆脜脳脺脢媒拢潞");
 	scanf("%d",&b);
 	for(x=0;x<=a;x++){		
 				if(4*x+2*(a-x)==b){found=1;break;}		
-	}if(found==1){printf("输入正确,兔:%d,鸡:%d\n",x,a-x);}
-	else{printf("输入错误\n");}
+	}
+	if(found==1){
+		printf("脢盲脠毛脮媒脠路,脥脙:%d,录娄:%d\n",x,a-x);}
+	else{printf("脢盲脠毛麓铆脦贸\n");}
 	
 	return 0;}
 

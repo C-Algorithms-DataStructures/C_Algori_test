@@ -15,8 +15,7 @@ main(){
 	   else{printf("Bingo!");break;}
        if(y>x)printf("too big\n");
 	   if(y<x)printf("too small\n");
-	   continue;
-	   
+	   continue;	   
    }
    if(i==10){printf("ÕýÈ·´ð°¸£º%d\n",x);}
    getch();
