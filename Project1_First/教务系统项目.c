@@ -41,6 +41,20 @@
 // 		for(int j=0;j<n;j++){printf("the %d grade:%f\n",j+1,info[i].grade[j]);}
 // 		}
 // } 
+
+//--Krofin --认为代码不太规范，太混乱，希望你能改进
+//这是我写的函数
+
+int rank(int stu_num,int n,float info[],grade[],float sum[]) {
+
+
+
+
+
+}
+
+
+
 void main(){
 	//学生成绩输入 
 	int i,n,j,stu_num,t;
@@ -63,7 +77,9 @@ void main(){
 		for(j=0;j<grade_num;j++){
 			printf("第%d门成绩：\n",i+1);
 			scanf("%d",&info->grade[i]);
-			sum[j]+=info->grade[i];}}
+			sum[j]+=info->grade[i];
+		}
+	}
 	//功能菜单 
 	printf("选择你需要的功能：1（排序），2（统计），3（查询）");
 	scanf("%d",&t);
