@@ -5,7 +5,7 @@ main(){
 	printf("please input 15 numbers:");
 	for(i=0;i<5;i++){
 		for(j=0;j<3;j++){
-			scanf("%d",&grade[i][j]);n++;}}
+			scanf("%d",&grade[i][j]);}}
 	for(i=0;i<7;i++){grade[i][3]=0;grade[i][4]=0;}
 	for(j=0;j<4;j++){grade[5][j]=0;grade[6][j]=0;}
     for(i=0;i<7;i++){
@@ -20,7 +20,7 @@ main(){
 			printf("grade[%d][%d]=%3d\t",i,j,grade[i][j]);
 		}printf("\n");
 	}
-	for(i=0;i<6;i++){printf("\nµÚ%dÃûÑ§ÉúµÄÆ½¾ù³É¼¨:%d\n",i+1,grade[i][4]);}
-	for(j=0;j<3;j++){printf("\n¿Î³Ì%dµÄÆ½¾ù³É¼¨:%d\n",j+1,grade[6][j]);}
+	for(i=0;i<6;i++){printf("\nç¬¬%dåå­¦ç”Ÿçš„å¹³å‡æˆç»©:%d\n",i+1,grade[i][4]);}
+	for(j=0;j<3;j++){printf("\nè¯¾ç¨‹%dçš„å¹³å‡æˆç»©:%d\n",j+1,grade[6][j]);}
 	getch();
 	}
